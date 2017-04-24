@@ -1,4 +1,7 @@
-# test coverage for  [heapdump (v0.3.9)](https://github.com/bnoordhuis/node-heapdump)  [![npm package](https://img.shields.io/npm/v/npmtest-heapdump.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-heapdump) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-heapdump.svg)](https://travis-ci.org/npmtest/node-npmtest-heapdump)
+# npmtest-heapdump
+
+#### basic test coverage for  [heapdump (v0.3.9)](https://github.com/bnoordhuis/node-heapdump)  [![npm package](https://img.shields.io/npm/v/npmtest-heapdump.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-heapdump) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-heapdump.svg)](https://travis-ci.org/npmtest/node-npmtest-heapdump)
+
 #### Make a dump of the V8 heap for later inspection.
 
 [![NPM](https://nodei.co/npm/heapdump.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/heapdump)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-heapdump/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-heapdump/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-heapdump/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-heapdump/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-heapdump/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-heapdump/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-heapdump/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-heapdump/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-heapdump/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-heapdump/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-heapdump/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-heapdump/build/coverage.html/index.html)
 
@@ -73,7 +76,8 @@
         "install": "node-gyp rebuild",
         "test": "tap test/test-*"
     },
-    "version": "0.3.9"
+    "version": "0.3.9",
+    "bin": {}
 }
 ```
 
